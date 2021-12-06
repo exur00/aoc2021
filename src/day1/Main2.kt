@@ -1,7 +1,9 @@
+package day1
+
 import java.io.File
 
-fun main(args: Array<String>){
-    var a = File("src/input.txt").readLines()
+fun main(){
+    val a = File("src/day1/input.txt").readLines()
 
     var y1 = a.get(2).toInt()
     var y2 = a.get(1).toInt()
